@@ -1,7 +1,6 @@
-package es.upm.miw.demoretrofit;
+package es.upm.miw.airQualityStations;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,21 +8,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.List;
-
-import es.upm.miw.demoretrofit.models.AirData;
-import es.upm.miw.demoretrofit.modelsCollection.Datum;
-import es.upm.miw.demoretrofit.modelsCollection.StationCollection;
+import es.upm.miw.airQualityStations.modelsCollection.Datum;
+import es.upm.miw.airQualityStations.modelsCollection.StationCollection;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+
+
 public class ActividadPrincipal extends Activity {
 
     private static final String API_BASE_URL = "https://api.waqi.info/";
- //   private static final String API_BASE_URL_BOUNDS ="https://api.waqi.info/";
+    //private static final String API_BASE_URL_BOUNDS ="https://api.waqi.info/";
     private static final String TOKEN = "c180c35f2d4ea911aba2f6d75815b2945ba441c8";
 
     private static final String LOG_TAG = "MiW";

@@ -1,10 +1,7 @@
-package es.upm.miw.demoretrofit;
+package es.upm.miw.airQualityStations;
 
-import java.util.List;
-
-import es.upm.miw.demoretrofit.models.AirData;
-import es.upm.miw.demoretrofit.modelsCollection.Datum;
-import es.upm.miw.demoretrofit.modelsCollection.StationCollection;
+import es.upm.miw.airQualityStations.models.AirData;
+import es.upm.miw.airQualityStations.modelsCollection.StationCollection;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

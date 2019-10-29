@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        applicationId "es.upm.miw.demoretrofit"
+        applicationId "es.upm.miw.airQualityStations"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -27,4 +27,17 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'org.apache.commons:commons-lang3:3.6'
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+    //implementation 'com.google.firebase:firebase-core:16.0.3'
+
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+
+    // https://github.com/firebase/FirebaseUI-Android/tree/master/auth
+    //implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+    implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
 }
+
+
+// Google Services
+apply plugin: 'com.google.gms.google-services'

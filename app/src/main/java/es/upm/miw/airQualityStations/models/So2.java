@@ -1,20 +1,20 @@
 
-package es.upm.miw.demoretrofit.models;
+package es.upm.miw.airQualityStations.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Pm10 {
+public class So2 {
 
     @SerializedName("v")
     @Expose
-    private Integer v;
+    private Double v;
 
-    public Integer getV() {
+    public Double getV() {
         return v;
     }
 
-    public void setV(Integer v) {
+    public void setV(Double v) {
         this.v = v;
     }
 

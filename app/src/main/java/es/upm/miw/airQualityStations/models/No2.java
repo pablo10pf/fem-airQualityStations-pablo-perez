@@ -1,10 +1,10 @@
 
-package es.upm.miw.demoretrofit.models;
+package es.upm.miw.airQualityStations.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class T {
+public class No2 {
 
     @SerializedName("v")
     @Expose

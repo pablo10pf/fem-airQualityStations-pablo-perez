@@ -1,5 +1,5 @@
 
-package es.upm.miw.demoretrofit.modelsCollection;
+package es.upm.miw.airQualityStations.modelsCollection;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

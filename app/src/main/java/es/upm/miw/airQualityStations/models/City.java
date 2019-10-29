@@ -1,5 +1,5 @@
 
-package es.upm.miw.demoretrofit.models;
+package es.upm.miw.airQualityStations.models;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

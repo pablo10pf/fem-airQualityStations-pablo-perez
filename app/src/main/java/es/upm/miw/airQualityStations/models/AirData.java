@@ -1,18 +1,17 @@
 
-package es.upm.miw.demoretrofit.modelsCollection;
+package es.upm.miw.airQualityStations.models;
 
-import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class StationCollection {
+public class AirData {
 
     @SerializedName("status")
     @Expose
     private String status;
     @SerializedName("data")
     @Expose
-    private List<Datum> data = null;
+    private Data data;
 
     public String getStatus() {
         return status;
@@ -22,11 +21,11 @@ public class StationCollection {
         this.status = status;
     }
 
-    public List<Datum> getData() {
+    public Data getData() {
         return data;
     }
 
-    public void setData(List<Datum> data) {
+    public void setData(Data data) {
         this.data = data;
     }
 

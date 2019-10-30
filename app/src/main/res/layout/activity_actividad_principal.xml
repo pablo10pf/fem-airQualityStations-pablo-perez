@@ -30,10 +30,15 @@
             android:layout_weight="1"
             android:src="@android:drawable/ic_menu_search"
             android:contentDescription="@string/btnDescripcion"
-            android:onClick="obtenerInfoPais" />
+            android:onClick="getStations" />
     </LinearLayout>
 
-    <ScrollView
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvStations"></ListView>
+
+    <!-- <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -42,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </ScrollView>
+    </ScrollView>-->
 
 
 </LinearLayout>

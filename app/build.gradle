@@ -36,6 +36,9 @@ dependencies {
     // https://github.com/firebase/FirebaseUI-Android/tree/master/auth
     //implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
     implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
+
+    // btb Added to enable Realtime Database feaature from Firebase
+    compile 'com.google.firebase:firebase-database:16.0.1'
 }
 
 

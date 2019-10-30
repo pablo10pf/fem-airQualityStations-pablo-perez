@@ -12,7 +12,9 @@ import retrofit2.http.Query;
 interface ICountryRESTAPIService {
 
 
-    @GET("map/bounds/?latlng=40.714757,-4.192049,39.992108,-3.029779")
+    // Madrid @GET("map/bounds/?latlng=40.714757,-4.192049,39.992108,-3.029779")
+
+    @GET("map/bounds/?latlng=39.604872,-0.848914,39.336109,-0.158591")
     Call<StationCollection> getStations(@Query("token") String token);
 
 

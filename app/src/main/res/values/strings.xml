@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">[MiW] DemoRetrofit (RESTCountries.eu)</string>
+    <string name="app_name">[MiW] AirQualityStations</string>
     <string name="strError">No se ha recuperado ningún país</string>
     <string name="btnDescripcion">Botón buscar</string>
     <string name="errorCityNotFound">No existe esa ciudad</string>
+    <string name="signed_in">Signed in!</string>
+    <string name="signed_out">Signed out!</string>
+    <string name="signed_cancelled">Signed in cancelled</string>
+    <string name="logout_button">Logout</string>
+    <string name="firebase_user_fmt">Firebase User: %s</string>
 </resources>
